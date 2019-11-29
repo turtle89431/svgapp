@@ -1,2 +1,4 @@
 var hh = document.getElementById("HH");
-hh.innerText = "Hours";
+document.addEventListener("DOMContentLoaded", function() {
+    hh.nodeValue = "Hour"
+})
